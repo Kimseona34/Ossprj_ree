@@ -31,8 +31,7 @@ public class CalendarEx {
         System.out.print("(" + hourOfDay + "시)");
         if(ampm == Calendar.AM) System.out.print("오전");
         else System.out.print("오후");
-        System.out.println(hour + "시 " + minute + "분 " + second + "초 “ " +
-                "+ millisecond +"밀리초");
+        System.out.println(hour + "시 " + minute + "분 " + second + "초 “ " + "+ millisecond + "밀리초" );
     }
 
     public static void main(String[] args) {
